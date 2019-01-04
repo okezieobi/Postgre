@@ -1,0 +1,33 @@
+{
+  "name": "Postgre",
+  "version": "1.0.0",
+  "description": "First attempt at PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okezieobi/Postgre.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okezieobi/Postgre/issues"
+  },
+  "homepage": "https://github.com/okezieobi/Postgre#readme",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "express": "^4.16.4",
+    "pg-promise": "^8.5.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "nodemon": "^1.18.9"
+  }
+}
